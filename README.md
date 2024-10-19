@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Purrfect Cat Gallery
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A delightful React application that displays a gallery of cat images with different view modes and pagination options.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Three view modes: Grid, Column, and Infinite Scroll
+- Pagination in Grid and Column views
+- Infinite scrolling in Infinite Scroll view
+- Responsive design for various screen sizes
+- Sleek and modern UI with hover effects
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- Axios for API calls
+- react-infinite-scroll-component for infinite scrolling
+- Tailwind CSS for styling
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Clone the repository:
+   ```
+   git clone https://github.com/your-username/purrfect-cat-gallery.git
+   cd purrfect-cat-gallery
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-### `npm run build`
+3. Start the development server:
+   ```
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Open your browser and navigate to `http://localhost:3000` to view the app.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Click on the view mode buttons (Grid, Column, Infinite) to switch between different layouts.
+- In Grid and Column views, use the Previous and Next buttons to navigate through pages of cat images.
+- In Infinite Scroll view, simply scroll down to load more images.
+- Hover over images to see a subtle zoom effect.
 
-### `npm run eject`
+## API
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project uses [The Cat API](https://thecatapi.com/) to fetch cat images. No API key is required for basic usage.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contributing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is open source and available under the [MIT License](LICENSE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [The Cat API](https://thecatapi.com/) for providing the cat images
+- [Create React App](https://create-react-app.dev/) for the project setup
+- [Tailwind CSS](https://tailwindcss.com/) for the styling utilities
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy the cuteness overload! 🐱
