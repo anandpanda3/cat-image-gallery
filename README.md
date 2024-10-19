@@ -62,4 +62,4 @@ This project is open source and available under the [MIT License](LICENSE).
 - [Create React App](https://create-react-app.dev/) for the project setup
 - [Tailwind CSS](https://tailwindcss.com/) for the styling utilities
 
-Enjoy the cuteness overload! 🐱
+Enjoy ! 🐱
